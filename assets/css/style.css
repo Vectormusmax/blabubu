@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: font1;
+    src: url(/assets/font/NeueMontreal-Bold.otf);
+}
+
+body {
+    /* font-family: "Urbanist", sans-serif; */
+    font-family: "Patrick Hand SC", cursive;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #145192;
+    color: #fff;
+    /* background-image: linear-gradient(to bottom, #2bc7dc, #00b3da, #009dd5, #0087cc, #1970be); */
+    overflow-x: hidden;
+}
+
+span {
+    display: inline-block;
+}
+
+
+.hero,
+.about_testimonic,
+.roadmap-layar,
+.bg_4,
+.bg_5,
+.bg_6 {
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.hero {
+    background-image: url(/assets/images/header-main.png);
+}
+
+.about_testimonic {
+    background-image: url(/assets/images/bg-22.png);
+}
+
+.roadmap-layar {
+    background-image: url(/assets/images/roadmap-layar.png);
+}
+
+.bg_4 {
+    background-image: url(/assets/images/BG\ 4.png);
+}
+
+
+.bg_5 {
+    background-image: url(/assets/images/bg-5.png);
+}
+
+.bg_6 {
+    background-image: url(/assets/images/BG\ 6.png);
+}
+
+.shadow_main {
+    -webkit-filter: drop-shadow(5px 5px 40px #EB2CA2);
+    filter: drop-shadow(5px 5px 40px #EB2CA2);
+}
